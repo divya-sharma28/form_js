@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.head{
+    color: #c3cefd;
+    margin:  30px;
+    font-weight: 600;
+}
+.head:hover{
+    color: white;
+}
+select{
+    width: 60%;
+    padding: 5px 15px;
+    text-align: start;
+    border-radius: 20px;
+    
+}
+
+select:focus{
+    outline: 2px solid #040b73;
+}
+
+
+
+span{
+    font-size: 25px;
+    background-color: #2e0236;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    padding: 1px 0 0 0;
+    cursor: pointer;
+    box-shadow: 1px 1px 8px #100236;
+
+}
+
+span:hover{
+    background-color: white;
+    color: black;
+}
+
+label{
+    color: white;
+    font-weight: 600;
+    font-size: 23px;
+}
+/* ---------------------------------------------- SCREEN ONE -------------------------------------- */
+.selectdiv{
+    background-color: #9eafff;
+    padding: 15px;
+    border-top: 22px solid #273674;
+    border-bottom: 22px solid #273674;
+    border-left: 22px solid #6b76b6;
+    border-right: 22px solid #6b76b6;
+}
+
+#maindiv{
+    background-color: #273674;
+    border-top: 22px solid #273674;
+    border-bottom: 22px solid #273674;
+    border-left: 22px solid #6b76b6;
+    border-right: 22px solid #6b76b6;
+    padding: 10px;
+    display: none;
+}
+
+.divIn{
+    padding: 10px 20px;
+        background-color: #5a67b4;
+        margin: 10px 20px;
+        border-radius: 100px;  
+}
+
+
+
+.innerDivLabel{
+    text-align: center;
+    width: 50%;
+}
+
+#screenOne button{
+    margin: 0 20px;
+    border-radius: 20px;
+    border: none;
+    width: 80px;
+    height: 40px;
+    background-color: #2e0236;
+    box-shadow: 1px 1px 8px #100236;
+    color: white;
+
+}
+input[type="Submit"]{
+    background-color: #050530;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 120px !important;
+    height: 40px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 56);
+
+}
+
+
+
+.innerDivInput{
+    text-align: start;
+    width: 50%;
+
+}
+
+#screenOne input{
+    width: 60%;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid #2d2d2d;
+}
+input:focus{
+    outline: 2px solid #040b73;
+}
+
+#screenOne input[type="Radio"], #screenOne input[type="Checkbox"]{
+    width: 10% !important;
+}
+/* -------------------------------------------- SCREEN TWO -------------------------------------- */
+
+#screenTwo button{
+    background-color: #3d4e91 !important;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 120px !important;
+    height: 40px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 56);
+
+}
+
+button:hover,input[type="Submit"]:hover,#screenTwo button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid #2e0236;
+}
+
+
+.s2Div{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+    background-color: rgb(92, 94, 149);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.s2Div input{
+    width: 60%;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid #2d2d2d;
+    
+}
+
+#myInputdiv button{
+    display: none;
+}
+
+#myInputdiv input[placeholder="Option"]{
+    display: none;
+
+}
+
+#myInputdiv input[type="radio"],#myInputdiv input[type="Checkbox"]{
+    margin-right: 10px ;
+    width: unset !important;
+}
+#myInputdiv{
+    width: 50%;
+    text-align: left;
+}
+#mylabeldiv{
+    width: 50%;
+    text-align: center;
+
+}
+
+
+
+#screenTwo{
+    padding: 20px;
+    border: 10px solid rgb(93, 93, 255);
+    display: none;
+}
+
+/* -------------------------------------------- SCREEN THREE -------------------------------------- */
+
+#screenThree{
+    padding: 20px;
+    display: none;
+}
+
+.s3div{
+    background-color: #152159;
+    display: flex;
+    justify-content: end;
+    margin: 10px 0;
+}
+
+.l1div,.l2div{
+    text-align: left;
+    width: 40%;
+}
